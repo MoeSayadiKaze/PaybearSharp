@@ -23,6 +23,7 @@ namespace PaybearSharp
                 client.DownloadString($"https://api.paybear.io/v2/currencies?token={_apiToken}"));
             return ls;
         }
+
         public ExchangeRateItem ExchangeRate(Currency currency, Coin coin)
         {
             var client = new WebClient();
