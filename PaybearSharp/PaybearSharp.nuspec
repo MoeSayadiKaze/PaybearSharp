@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PaybearSharp</id>
+    <version>1.0.0.0</version>
+    <title>PaybearSharp</title>
+    <authors>mohammad sayadi</authors>
+    <owners>mohammad sayadi</owners>
+    <licenseUrl>https://github.com/MoeSayadiKaze/PaybearSharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MoeSayadiKaze/PaybearSharp</projectUrl>
+    <iconUrl>https://www.paybear.io/favicon-32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implementation of paybear in c# </description>
+    <releaseNotes>v</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>paybear cryptopayment csharp btc ltc eth bch </tags>
+  </metadata>
+</package>

@@ -4,6 +4,7 @@
 //
 //    var callBackResult = CallBackResult.FromJson(jsonString);
 
+using System.Numerics;
 using Newtonsoft.Json;
 
 namespace PaybearSharp
@@ -50,7 +51,7 @@ namespace PaybearSharp
         public long Exp { get; set; }
 
         [JsonProperty("amount")]
-        public long Amount { get; set; }
+        public BigInteger Amount { get; set; }
     }
 
  
